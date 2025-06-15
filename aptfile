@@ -1,3 +1,5 @@
 build-essential
 python3-dev
-libpq-dev  # If using PostgreSQL
+libfreetype6-dev
+libpng-dev
+pkg-config
