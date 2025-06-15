@@ -1,17 +1,12 @@
-# Base scientific stack (order matters!)
-numpy==1.24.4  # Must come first
-pandas==2.1.4
-matplotlib==3.7.2
-seaborn==0.12.2
+setuptools>=65.5.1
+wheel>=0.38.4
+pip>=23.0.1
 
-# Interactive visualization
+# Then your existing packages
+voila==0.5.1
 plotly==5.17.0
 ipywidgets==8.1.1
-
-# Voilà and Jupyter dependencies
-voila==0.5.1
-jupyter-client==8.6.0
-jupyter-core==5.5.0
-
-# Binary versions where available
-psutil==5.9.6  # Often needed as dependency
+pandas==2.1.4
+numpy==1.24.4
+matplotlib==3.7.2
+seaborn==0.12.2
